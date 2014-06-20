@@ -1,7 +1,7 @@
 // set up ========================
 var express  = require('express');
 var app      = express(); 								// create our app w/ express
-var port = 9090											//port that will be listen
+var port = 8080											//port that will be listen
 
 app.configure(function() {
 		app.use(express.static(__dirname + '/public')); 		// set the static files location /public/img will be /img for users
